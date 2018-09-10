@@ -121,6 +121,39 @@ class HomePage extends Component {
             </div>
           </div>
         </div>
+
+        <div className="container">
+          <div
+            className="row fullscreen align-items-center justify-content-center"
+            id="centered"
+          >
+            <div className="banner-left col-lg-4">
+              <img
+                className="d-flex mx-auto img-fluid"
+                src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1536544032/personal_page.png"
+                alt=""
+              />
+            </div>
+            <div className="col-lg-6">
+              <div className="story-content">
+                <h5 className="text-uppercase">_personal webpage</h5>
+                <h1>
+                  <span className="sp-1" id="font-about-me">
+                    Personal webpage developed with React, Express Routing and
+                    Node JS
+                  </span>
+                </h1>
+                <a
+                  className="btn btn-outline-success"
+                  href="https://github.com/bernardomendonca/personal-page"
+                  role="button"
+                >
+                  Check the Repo!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     );
   }

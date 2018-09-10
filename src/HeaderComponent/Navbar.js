@@ -32,11 +32,6 @@ class NavBar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/urban-planning">
-                  Urban Planning
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to="/brainletics">
                   Brainletics
                 </Link>
