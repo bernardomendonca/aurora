@@ -64,7 +64,7 @@ class HomePage extends Component {
                 <h6 className="text-uppercase">_Open Source Development</h6>
                 <h1>
                   <span className="sp-1">Building, testing </span>
-                  <span className="sp-2">and deployng</span>
+                  <span className="sp-2">and deploying</span>
                 </h1>
                 <a
                   className="btn btn-outline-success"
