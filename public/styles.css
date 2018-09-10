@@ -1,0 +1,39 @@
+#body-font-override {
+  font-family: "Lato", sans-serif;
+}
+
+footer {
+  padding-top: 10px;
+  padding: 0 0 1.5em 0;
+}
+
+#content {
+  max-width: 600px;
+  flex: 1;
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0.5vh 5vw;
+  align-items: center;
+}
+
+#centered {
+  padding: 40px;
+}
+
+#some-margin {
+  margin: 3px;
+}
+
+#margin-6p-grey {
+  margin: 6px;
+  color: #343a40;
+}
+
+#font-about-me {
+  font-size: 1.4rem;
+}
+
+#font-0-8 {
+  font-size: 0.8rem;
+}
