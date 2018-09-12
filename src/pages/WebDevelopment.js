@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Github from "../GithubComponent/Github.js";
 
 class HomePage extends Component {
   render() {
@@ -152,6 +153,11 @@ class HomePage extends Component {
                 </a>
               </div>
             </div>
+          </div>
+          <br />
+          <div>
+            {" "}
+            <Github />
           </div>
         </div>
       </section>

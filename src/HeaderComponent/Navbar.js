@@ -6,7 +6,7 @@ class NavBar extends Component {
     return (
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark ml-auto">
         <div className="container">
-          <a class="navbar-brand" href="/">
+          <a className="navbar-brand" href="/">
             <img
               src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1536371897/just-logo.png"
               width="40"

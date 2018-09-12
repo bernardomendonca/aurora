@@ -37,3 +37,8 @@ footer {
 #font-0-8 {
   font-size: 0.8rem;
 }
+
+#centered-div {
+  width: 700px;
+  margin: 0 auto;
+}
