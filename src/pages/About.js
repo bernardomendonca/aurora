@@ -32,7 +32,7 @@ class About extends Component {
                 <a
                   className="btn btn-outline-success"
                   id="some-margin"
-                  href="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1537320240/CURRICULUM_VITAE_-_Bernardo_Mendon%C3%A7a.pdf"
+                  href="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1537411071/CURRICULUM_VITAE_-_Bernardo_Mendon%C3%A7a.pdf"
                   role="button"
                 >
                   Check my CV
