@@ -16,9 +16,9 @@ class About extends Component {
                 <h1>
                   <span className="sp-1" id="font-about-me">
                     Passionate about data driven decisions that strengthen
-                    bottom-up strategical approaches. Being trained in the MERN
-                    Web Development stack do build applications that aid the
-                    decision-making process.
+                    bottom-up strategic approaches. Being trained in the MERN
+                    Web Development stack to build applications that aid the
+                    decision-making processes.
                   </span>
                 </h1>
                 <a
