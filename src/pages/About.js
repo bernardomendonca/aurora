@@ -15,10 +15,12 @@ class About extends Component {
                 <h5 className="text-uppercase">_about me</h5>
                 <h1>
                   <span className="sp-1" id="font-about-me">
-                    Passionate about data driven decisions that strengthen
-                    bottom-up strategic approaches. Being trained in the MERN
-                    Web Development stack to build applications that aid the
-                    decision-making processes.
+                    Web Developer proficient in HTML, CSS and JavaScript.
+                    Familiar with unit testing, Test Driven Development and
+                    Continuous Integration. Trained in fast changing
+                    environments and Agile development. Passionate about
+                    learning collectively. Advocate of inclusion and bottom-up
+                    processes.
                   </span>
                 </h1>
                 <a
@@ -38,6 +40,16 @@ class About extends Component {
                   Check my CV
                 </a>
               </div>
+            </div>
+          </div>
+          <hr />
+          <div className="container ">
+            <div className="row ">
+              <div className="col-sm">
+                <i class="fab fa-html5" /> HTML5
+              </div>
+              <div className="col-sm">SKILLSET2</div>
+              <div className="col-sm">SKILLSET3</div>
             </div>
           </div>
         </div>
