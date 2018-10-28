@@ -43,6 +43,14 @@ footer {
   margin: 0 auto;
 }
 
-img {
+#homepageimg {
+  width: 400px;
+  height: auto;
   padding: 15px;
+}
+
+i {
+  padding: 5px;
+  font-size: 30px;
+  vertical-align: middle;
 }

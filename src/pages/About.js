@@ -42,14 +42,56 @@ class About extends Component {
               </div>
             </div>
           </div>
-          <hr />
-          <div className="container ">
+
+          <div id="centered-div">
+            <hr />
+            <h1>WHAT DO I KNOW?</h1>
+            <br />
             <div className="row ">
               <div className="col-sm">
-                <i class="fab fa-html5" /> HTML5
+                <h3>FRONT END</h3>
+                <i className="fab fa-html5" /> HTML
+                <br />
+                <i className="fab fa-css3-alt" /> CSS
+                <br />
+                <i className="fab fa-js-square" /> JavaScript
+                <br />
+                <i className="fab fa-js-square" /> JQuery
+                <br />
+                <i className="fab fa-js-square" /> Handlebars
+                <br />
+                <i className="fab fa-react" /> React
+                <br />
+                <i className="fab fa-react" /> Redux
               </div>
-              <div className="col-sm">SKILLSET2</div>
-              <div className="col-sm">SKILLSET3</div>
+              <div className="col-sm">
+                <h3>BACK END</h3>
+                <i className="fab fa-node-js" /> Node.JS
+                <br />
+                <i className="fab fa-node-js" /> Express
+                <br />
+                <i className="fas fa-database" /> MongoDB
+                <br />
+                <i className="fas fa-user-astronaut" /> Postman
+              </div>
+              <div className="col-sm">
+                <h3>MISC</h3>
+                <i className="fas fa-project-diagram" /> Heroku
+                <br />
+                <i className="fas fa-project-diagram" /> Agile Development
+                <br />
+                <i className="fas fa-project-diagram" /> SCRUM
+                <br />
+                <i className="fas fa-align-left" /> Test Driven Dev
+                <br />
+                <i className="fas fa-align-justify" /> JEST
+                <br />
+                <i className="fab fa-git" /> GIT
+                <br />
+                <i className="fab fa-github" /> GitHub
+                <br />
+                <i className="fas fa-code-branch" /> Continuous Integration
+              </div>
             </div>
           </div>
         </div>

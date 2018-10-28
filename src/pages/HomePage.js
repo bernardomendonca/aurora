@@ -13,6 +13,7 @@ class HomePage extends Component {
           >
             <div className="banner-left col-lg-6">
               <img
+                id="homepageimg"
                 className="d-flex mx-auto img-fluid"
                 src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1536321281/15830940424_02d12c92bb_o.jpg"
                 alt=""
@@ -54,6 +55,7 @@ class HomePage extends Component {
           >
             <div className="banner-left col-lg-6">
               <img
+                id="homepageimg"
                 className="d-flex mx-auto img-fluid"
                 src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1536322221/16427461946_bd8d6a0b18_o.jpg"
                 alt=""
@@ -85,6 +87,7 @@ class HomePage extends Component {
           >
             <div className="banner-left col-lg-6">
               <img
+                id="homepageimg"
                 className="d-flex mx-auto img-fluid"
                 src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1536322487/15830935414_591c00fd11_o.jpg"
                 alt=""
