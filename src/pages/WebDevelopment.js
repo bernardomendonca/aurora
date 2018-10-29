@@ -6,6 +6,8 @@ class HomePage extends Component {
   render() {
     return (
       <section className="banner-area relative">
+        {/* YELPCAMP */}
+
         <div className="container">
           <div
             className="row fullscreen align-items-center justify-content-center"
@@ -47,6 +49,56 @@ class HomePage extends Component {
             </div>
           </div>
         </div>
+
+        {/* FOUNDER & STUDENT */}
+
+        <div className="container">
+          <div
+            className="row fullscreen align-items-center justify-content-center"
+            id="centered"
+          >
+            <div className="banner-left col-lg-4">
+              <img
+                className="d-flex mx-auto img-fluid"
+                src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1539756756/founderandstudent.png"
+                alt=""
+              />
+            </div>
+            <div className="col-lg-6">
+              <div className="story-content">
+                <h5 className="text-uppercase">_Founder & Student</h5>
+                <h1>
+                  <span className="sp-1" id="font-about-me">
+                    Matching tool for StartUp founders and International
+                    students. Built with React and Redux for the front-end.
+                    Node.JS and Express routing for backend, with MongoDB as
+                    non-relational database. Authentication and authorisation
+                    with jsonwebtoken, passport and validator.
+                    <br />
+                    *Work in progress
+                  </span>
+                </h1>
+                <a
+                  className="btn btn-outline-success"
+                  id="some-margin"
+                  href="https://frozen-badlands-71615.herokuapp.com/students"
+                  role="button"
+                >
+                  Live Preview
+                </a>
+                <a
+                  className="btn btn-outline-success"
+                  href="https://github.com/bernardomendonca/find-a-student"
+                  role="button"
+                >
+                  Check the Repo!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* DEVCONNECTOR */}
 
         <div className="container">
           <div
@@ -90,6 +142,8 @@ class HomePage extends Component {
           </div>
         </div>
 
+        {/* PATATP */}
+
         <div className="container">
           <div
             className="row fullscreen align-items-center justify-content-center"
@@ -122,6 +176,8 @@ class HomePage extends Component {
             </div>
           </div>
         </div>
+
+        {/* WEBPAGE */}
 
         <div className="container">
           <div
