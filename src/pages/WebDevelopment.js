@@ -98,6 +98,43 @@ class HomePage extends Component {
           </div>
         </div>
 
+        {/* WITCH DOCTOR */}
+
+        <div className="container">
+          <div
+            className="row fullscreen align-items-center justify-content-center"
+            id="centered"
+          >
+            <div className="banner-left col-lg-4">
+              <img
+                className="d-flex mx-auto img-fluid"
+                src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1540775415/witchdoctor.jpg"
+                alt=""
+              />
+            </div>
+            <div className="col-lg-6">
+              <div className="story-content">
+                <h5 className="text-uppercase">_Witch Doctor</h5>
+                <h1>
+                  <span className="sp-1" id="font-about-me">
+                    Social Network for sharing home-made recipes for healing
+                    purposes. Built with the MERN Stack.
+                    <br />
+                    *Work in progress
+                  </span>
+                </h1>
+                <a
+                  className="btn btn-outline-success"
+                  href="https://github.com/bernardomendonca/the-witch-doctor"
+                  role="button"
+                >
+                  Check the Repo!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* DEVCONNECTOR */}
 
         <div className="container">
