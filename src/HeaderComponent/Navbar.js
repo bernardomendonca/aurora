@@ -8,7 +8,7 @@ class NavBar extends Component {
         <div className="container">
           <a className="navbar-brand" href="/">
             <img
-              src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1536371897/just-logo.png"
+              src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1541047369/salad_roll_sushi.png"
               width="40"
               height="40"
               alt=""
@@ -23,29 +23,24 @@ class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
-                  About Me
+                  Sobre Nós
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/web-development">
-                  Web Development
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/brainletics">
-                  Brainletics
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/photography">
-                  Photography
-                </Link>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav-link"
+                  href="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1541060755/sushi_brasileiro_-_menu.pdf"
+                >
+                  Cardápio
+                </a>
               </li>
             </ul>
             <ul className="navbar-nav mr-0">
               <li className="nav-item nav-item-right">
                 <Link className="nav-link" to="/contact">
-                  Contact
+                  Contato
                 </Link>
               </li>
             </ul>

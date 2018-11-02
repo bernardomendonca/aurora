@@ -1,5 +1,100 @@
-body {
+body,
+html {
+  height: 100%;
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* 
+  To remove the parallax effect, just change to scroll
+  */
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("./resources/sharing-sushi.jpg");
+  min-height: 700px;
+}
+
+.pimg2 {
+  background-image: url("./resources/sushi-corner.jpg");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("./resources/sushi-rice-1.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 120px;
+  line-height: 1.2;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
+  }
+}
+
+/* DIV CENTERED FOR ABOUT ME */
+#centered {
+  padding: 40px;
+}
+/* ICONS STYLING */
+#margin-6p-grey {
+  margin: 6px;
+  color: #343a40;
+}
+
+p {
+  font-size: 30px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #555;
 }

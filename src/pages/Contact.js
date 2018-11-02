@@ -12,29 +12,23 @@ class Contact extends Component {
           >
             <div className="col-lg-10">
               <div className="story-content">
-                <h5 className="text-uppercase">_contact</h5>
+                <h5 className="text-uppercase">contato</h5>
                 <h1>
                   <span className="sp-1" id="font-about-me">
                     <p>
-                      The best way to contact me is{" "}
-                      <a href="mailto:bernardomendonca@outlook.com">
-                        via e-mail
-                      </a>{" "}
+                      Para pedidos, favor entrar em contato por: (61) 0422 522
+                      701
+                    </p>
+                    <p>
+                      Peça também pelo{" "}
+                      <a href="https://www.facebook.com/laura.luppi.37625?fref=nf&__tn__=%2Cdm-R-R&eid=ARD6lVeb_mCR0mH2b3Jwe6eob0CbbMNqP0J_5vGKt1XaCs_33vzC_S1NiBF5qYNGqqoW9KXoJl-DdPfE&post_id=1422763574520547">
+                        facebook
+                      </a>
                     </p>
 
-                    <p>Otherwise, just try any of my social media pages:</p>
+                    <p>Aproveite para nos seguir nas nossas redes sociais:</p>
                     <a
-                      href="https://www.linkedin.com/in/bernardo-mendon%C3%A7a-168239137/"
-                      class="fab fa-linkedin fa-2x"
-                      id="margin-6p-grey"
-                    />
-                    <a
-                      href="https://www.instagram.com/brnrdomendonca/"
-                      class="fab fa-instagram fa-2x"
-                      id="margin-6p-grey"
-                    />
-                    <a
-                      href="https://www.facebook.com/berna.mendonca"
+                      href="https://www.facebook.com/laura.luppi.37625?fref=nf&__tn__=%2Cdm-R-R&eid=ARD6lVeb_mCR0mH2b3Jwe6eob0CbbMNqP0J_5vGKt1XaCs_33vzC_S1NiBF5qYNGqqoW9KXoJl-DdPfE&post_id=1422763574520547"
                       class="fab fa-facebook fa-2x"
                       id="margin-6p-grey"
                     />
