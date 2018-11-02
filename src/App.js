@@ -4,6 +4,7 @@ import { browserHistory } from "react-router";
 
 import HomePage from "./pages/HomePage.js";
 import Contact from "./pages/Contact.js";
+import Menu from "./pages/Menu.js";
 import About from "./pages/About.js";
 
 import NavBar from "./HeaderComponent/Navbar.js";
@@ -17,6 +18,7 @@ class App extends Component {
           <NavBar />
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="about" exact path="/about" component={About} />
+          <Route name="menu" exact path="/menu" component={Menu} />
           <Route name="contact" exact path="/contact" component={Contact} />
           <Footer />
         </div>

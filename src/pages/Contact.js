@@ -16,8 +16,8 @@ class Contact extends Component {
                 <h1>
                   <span className="sp-1" id="font-about-me">
                     <p>
-                      Para pedidos, favor entrar em contato por: (61) 0422 522
-                      701
+                      Para pedidos, favor entrar em contato por:
+                      <br /> (61) 0422 522 701
                     </p>
                     <p>
                       Peça também pelo{" "}

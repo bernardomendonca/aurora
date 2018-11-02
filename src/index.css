@@ -98,3 +98,32 @@ hr {
   height: 1px;
   background: #555;
 }
+
+.img-menu {
+  padding: 5px;
+}
+
+#peca-ja {
+  margin-top: 40px;
+  background: #32cd32;
+  height: 3.3em;
+  line-height: 3.3em;
+  padding: 0 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none !important;
+  border: 1px solid #32cd32;
+  border-radius: 0.5em;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+#peca-ja:hover,
+#peca-ja:active,
+#peca-ja:focus {
+  background: #228b22;
+}

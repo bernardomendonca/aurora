@@ -27,14 +27,9 @@ class NavBar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="nav-link"
-                  href="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1541060755/sushi_brasileiro_-_menu.pdf"
-                >
+                <Link className="nav-link" to="/menu">
                   Cardápio
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="navbar-nav mr-0">

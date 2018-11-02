@@ -31,6 +31,15 @@ class HomePage extends Component {
         <div className="pimg2">
           <div className="ptext">
             <span className="border">PICK UP ou DELIVERY</span>
+            <br />
+            <a
+              className="btn btn-success"
+              id="peca-ja"
+              href="/contact"
+              role="button"
+            >
+              Peça Já!
+            </a>
           </div>
         </div>
 
