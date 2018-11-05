@@ -20,7 +20,7 @@ class HomePage extends Component {
         <section className="section section-blue">
           <div className="container">
             <h1>AURORA: Quem somos</h1>
-            <hr />
+            <br />
             <div className="container mb-5">
               {/* FIRST ASSOCIATE */}
               <div className="row">
@@ -81,7 +81,7 @@ class HomePage extends Component {
             <br />
             <div className="container mb-5">
               <div className="row">
-                <div className="col-md-4 col-xs-12">
+                <div className="col-12 col-lg-4 col-xl-4">
                   <img
                     className="service-pic"
                     src={require("../resources/blueprint.png")}
@@ -96,7 +96,7 @@ class HomePage extends Component {
                     odit. Neque iste officia libero sunt.
                   </p>
                 </div>
-                <div className="col-md-4 col-xs-12">
+                <div className="col-12 col-lg-4 col-xl-4">
                   <img
                     className="service-pic"
                     src={require("../resources/chair.png")}
@@ -111,7 +111,7 @@ class HomePage extends Component {
                     odit. Neque iste officia libero sunt.
                   </p>
                 </div>
-                <div className="col-md-4 col-xs-12">
+                <div className="col-12 col-lg-4 col-xl-4">
                   <img
                     className="service-pic"
                     src={require("../resources/interior.png")}
