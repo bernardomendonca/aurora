@@ -1,14 +1,26 @@
+/*  BODY  */
 body,
 html {
   height: 100%;
   margin: 0;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
 }
 
+/*  NAVBAR  */
+.nav-blue {
+  background-color: #6480b0 !important;
+  font: white !important;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+/*  HOMEPAGE IMGS  */
 .pimg1,
 .pimg2,
 .pimg3 {
@@ -25,50 +37,51 @@ html {
 }
 
 .pimg1 {
-  background-image: url("./resources/sharing-sushi.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./resources/pete-willies-tiles.jpg");
+  /* Photo by Pete Willis on Unsplash */
   min-height: 700px;
+  opacity: 0.7 !important;
 }
 
-.pimg2 {
-  background-image: url("./resources/sushi-corner.jpg");
-  min-height: 400px;
-}
-
-.pimg3 {
-  background-image: url("./resources/sushi-rice-1.jpg");
-  min-height: 400px;
-}
-
-.section {
-  text-align: center;
-  padding: 50px 120px;
-  line-height: 1.2;
-}
-
-.section-dark {
-  background-color: #282e34;
-  color: #ddd;
-}
-
+/*  HOMEPAGE SECTIONS  */
 .ptext {
   position: absolute;
   top: 50%;
   width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
+  text-align: left;
+  color: #fff;
+  font-size: 200px;
+  letter-spacing: 12px;
   text-transform: uppercase;
 }
 
-.ptext .border {
-  background-color: #111;
-  color: #fff;
-  padding: 20px;
+.aurora {
+  /* background-color: #111; */
+  /* color: #fff; */
+  padding: 20px !important;
+  opacity: 1 !important;
 }
 
-.ptext .border.trans {
-  background-color: transparent;
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.section {
+  text-align: left;
+  padding: 50px 120px;
+  line-height: 1.2;
+}
+
+.section-blue {
+  background-color: #6480b0;
+  color: #ddd;
+}
+
+.section-blue-light {
+  background-color: #92a9d0;
+  color: #ddd;
 }
 
 @media (max-width: 568px) {
@@ -77,6 +90,23 @@ html {
   .pimg3 {
     background-attachment: scroll;
   }
+}
+
+/*  PICTURES  */
+
+.face-pic {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.service-pic {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 /* DIV CENTERED FOR ABOUT ME */
@@ -127,3 +157,11 @@ hr {
 #peca-ja:focus {
   background: #228b22;
 }
+
+/* ICONS CREDITS */
+/* BLUEPRINT */
+/* <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */
+/* CHAIR */
+/* <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */
+/* INTERIOR DESIGN */
+/* <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */

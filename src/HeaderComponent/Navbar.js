@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 class NavBar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark ml-auto">
+      <nav className="navbar navbar-expand-sm nav-blue ml-auto">
         <div className="container">
           <a className="navbar-brand" href="/">
             <img
-              src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1541047369/salad_roll_sushi.png"
-              width="40"
+              src="https://res.cloudinary.com/dxbk4zeyc/image/upload/v1541311997/aurora-logo.png"
               height="40"
               alt=""
             />
@@ -33,6 +32,11 @@ class NavBar extends Component {
               </li>
             </ul>
             <ul className="navbar-nav mr-0">
+              <li className="nav-item nav-item-right">
+                <Link className="nav-link" to="/creditos">
+                  Créditos
+                </Link>
+              </li>
               <li className="nav-item nav-item-right">
                 <Link className="nav-link" to="/contact">
                   Contato

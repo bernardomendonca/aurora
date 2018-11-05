@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import ReactTypingEffect from "react-typing-effect";
 
 class HomePage extends Component {
   render() {
@@ -8,75 +9,123 @@ class HomePage extends Component {
         {/* SECTION 1 */}
         <div className="pimg1">
           <div className="ptext">
-            <span className="border">SUSHI BRASILEIRO AGORA EM MELBOURNE</span>
+            <ReactTypingEffect
+              text={["ARQUITETURA", "DESIGN", "INTERIORES", "AURORA"]}
+              speed={50}
+              eraseDelay={300}
+            />
           </div>
         </div>
 
-        <section className="section section-dark">
-          <h1>Sushi com carinha de Brasil</h1>
-          <hr />
-          <p>
-            O sushi já é uma tradição centenária, mas e o sushi brasileiro? A
-            nossa releitura do prato tradicional japonês já é um sucesso
-            mundial. Cream cheese e spring onions dão o toque refrescante,
-            somados ao salmão clássico e a opção grelhada. Oferecemos uma
-            variedade de rolls e temakis que unem o tradicional ao inovador. A
-            incorporação dos ingredientes cotemporâneos é feita de maneira
-            balanceada a manter a unidade do sabor tradicional japonês, com
-            respeito a escolha de ingredientes frescos e de qualidade.
-          </p>
+        <section className="section section-blue">
+          <div className="container">
+            <h1>AURORA: Quem somos</h1>
+            <hr />
+            <div className="container mb-5">
+              {/* FIRST ASSOCIATE */}
+              <div className="row">
+                <div className="col-3">
+                  <img
+                    className="face-pic"
+                    src="https://images-na.ssl-images-amazon.com/images/I/51lK5b92Q1L._SX355_.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="col-9">
+                  <p>
+                    {" "}
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Doloremque nam minus fugit dolorem ex labore inventore, quos
+                    quas pariatur excepturi officiis repellat, odit eveniet
+                    dolore nulla modi cupiditate recusandae consectetur iste. A,
+                    illo nulla. Facere, laborum. Quibusdam aliquid nobis
+                    doloremque necessitatibus exercitationem quam, architecto
+                    vero quod perspiciatis veniam possimus iste?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br />
+            {/* SECOND ASSOCIATE */}
+            <div className="container">
+              <div className="row">
+                <div className="col-9">
+                  <p>
+                    {" "}
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Doloremque nam minus fugit dolorem ex labore inventore, quos
+                    quas pariatur excepturi officiis repellat, odit eveniet
+                    dolore nulla modi cupiditate recusandae consectetur iste. A,
+                    illo nulla. Facere, laborum. Quibusdam aliquid nobis
+                    doloremque necessitatibus exercitationem quam, architecto
+                    vero quod perspiciatis veniam possimus iste?
+                  </p>
+                </div>
+                <div className="col-3">
+                  <img
+                    className="face-pic"
+                    src="https://images-na.ssl-images-amazon.com/images/I/51lK5b92Q1L._SX355_.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* SECTION 2 */}
-        <div className="pimg2">
-          <div className="ptext">
-            <span className="border">PICK UP ou DELIVERY</span>
+
+        <section className="section section-blue-light">
+          <div className="container">
+            <h1>Nossos serviços</h1>
             <br />
-            <a
-              className="btn btn-success"
-              id="peca-ja"
-              href="/contact"
-              role="button"
-            >
-              Peça Já!
-            </a>
+            <div className="container mb-5">
+              <div className="row">
+                <div className="col-sm p-5">
+                  <img
+                    className="service-pic"
+                    src={require("../resources/blueprint.png")}
+                    alt="Projeto arquitetônico"
+                  />
+                  <br />
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sequi distinctio eligendi, hic eos unde iusto molestias
+                    autem maiores. Fugiat illo molestiae laboriosam porro error
+                    odit. Neque iste officia libero sunt.
+                  </p>
+                </div>
+                <div className="col-sm p-5">
+                  <img
+                    className="service-pic"
+                    src={require("../resources/chair.png")}
+                    alt="Design"
+                  />
+                  <br />
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sequi distinctio eligendi, hic eos unde iusto molestias
+                    autem maiores. Fugiat illo molestiae laboriosam porro error
+                    odit. Neque iste officia libero sunt.
+                  </p>
+                </div>
+                <div className="col-sm p-5">
+                  <img
+                    className="service-pic"
+                    src={require("../resources/interior.png")}
+                    alt="Interiores"
+                  />
+                  <br />
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sequi distinctio eligendi, hic eos unde iusto molestias
+                    autem maiores. Fugiat illo molestiae laboriosam porro error
+                    odit. Neque iste officia libero sunt.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <section className="section section-dark">
-          <h2>Localizados em Prahan</h2>
-          <hr />
-          <h3>
-            {" "}
-            Nosso canal do whatsapp e facebook está aberto pra pedidos até as
-            13h. A partir das 19h o pick-up está disponível e o delivery começa
-            a ser feito
-          </h3>
-          <br />
-          <p>
-            Estamos localizados no coração de Prahan, pertinho da estação de
-            trem de Prahan e do Victoria Gardens.
-          </p>
-        </section>
-
-        {/* SECTION 3 */}
-        <div className="pimg3">
-          <div className="ptext">
-            <span className="border"> FLEXIBILIDADE E FUNCTIONS </span>
-          </div>
-        </div>
-
-        <section className="section section-dark">
-          <h2>Functions e pedidos especiais?</h2>
-          <hr />
-          <p>
-            Se tem algo que você não conseguiu encontrar em nosso cardápio,
-            temos prazer de explorar novos pratos e opções. Entre em contato
-            para mais informações.
-            <br />
-            Tem alguma function e precisa de um pedido maior? Entre em contato
-            com antecedência para discutirmos as possibilidades.
-          </p>
         </section>
       </div>
     );
