@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class Footer extends Component {
   render() {
     const hyperlinkStyle = {
-      color: "#92A9D0"
+      color: "#C5D3EA"
     };
 
     return (

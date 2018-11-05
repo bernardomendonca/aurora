@@ -81,42 +81,45 @@ class HomePage extends Component {
             <br />
             <div className="container mb-5">
               <div className="row">
-                <div className="col-sm p-5">
+                <div className="col-md-4 col-xs-12">
                   <img
                     className="service-pic"
                     src={require("../resources/blueprint.png")}
                     alt="Projeto arquitetônico"
                   />
                   <br />
-                  <p>
+                  <h3 className="service-header">PROJETO ARQUITETÔNICO</h3>
+                  <p className="p-1">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Sequi distinctio eligendi, hic eos unde iusto molestias
                     autem maiores. Fugiat illo molestiae laboriosam porro error
                     odit. Neque iste officia libero sunt.
                   </p>
                 </div>
-                <div className="col-sm p-5">
+                <div className="col-md-4 col-xs-12">
                   <img
                     className="service-pic"
                     src={require("../resources/chair.png")}
                     alt="Design"
                   />
                   <br />
-                  <p>
+                  <h3 className="service-header">CONSULTORIA EM DESIGN</h3>
+                  <p className="p-1">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Sequi distinctio eligendi, hic eos unde iusto molestias
                     autem maiores. Fugiat illo molestiae laboriosam porro error
                     odit. Neque iste officia libero sunt.
                   </p>
                 </div>
-                <div className="col-sm p-5">
+                <div className="col-md-4 col-xs-12">
                   <img
                     className="service-pic"
                     src={require("../resources/interior.png")}
                     alt="Interiores"
                   />
                   <br />
-                  <p>
+                  <h3 className="service-header">PROJETO DE INTERIORES</h3>
+                  <p className="p-1">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Sequi distinctio eligendi, hic eos unde iusto molestias
                     autem maiores. Fugiat illo molestiae laboriosam porro error

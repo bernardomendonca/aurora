@@ -44,6 +44,23 @@ html {
   opacity: 0.7 !important;
 }
 
+/*  IMG CREDITOS  */
+.pimg2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./resources/hutomo.jpg");
+  /* Photo by Pete Willis on Unsplash */
+  min-height: 700px;
+  opacity: 0.7 !important;
+}
+
+.pimg3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./resources/tiles.jpg");
+  /* Photo by Pete Willis on Unsplash */
+  min-height: 700px;
+  opacity: 0.7 !important;
+}
+
 /*  HOMEPAGE SECTIONS  */
 .ptext {
   position: absolute;
@@ -84,6 +101,11 @@ p {
   color: #ddd;
 }
 
+.service-header {
+  font-weight: bold;
+  text-align: center;
+}
+
 @media (max-width: 568px) {
   .pimg1,
   .pimg2,
@@ -113,10 +135,28 @@ p {
 #centered {
   padding: 40px;
 }
+
+.text-background {
+  background: #426094;
+  color: #eaf0fa !important;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* DIV CENTERD VERT AND HORI */
+.super-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
 /* ICONS STYLING */
 #margin-6p-grey {
   margin: 6px;
-  color: #343a40;
+  color: #eaf0fa;
 }
 
 p {

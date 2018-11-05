@@ -4,37 +4,35 @@ import { Link } from "react-router-dom";
 class About extends Component {
   render() {
     return (
-      <section className="banner-area relative">
+      <div className="pimg2">
         <div className="container">
-          <div
-            className="row fullscreen align-items-center justify-content-center"
-            id="centered"
-          >
-            <div className="col-lg-10">
-              <div className="story-content">
-                <h5 className="text-uppercase">SOBRE NÓS</h5>
-                <h1>
+          <div className="row">
+            <div className="col-md-8 center-block mx-auto text-background super-centered">
+              <div className="container mt-5 mb-5">
+                <h2 className="text-uppercase">SOBRE NÓS</h2>
+                <br />
+                <h3>
                   <span className="sp-1" id="font-about-me">
-                    Sou Leandro, atuo como sushiman profissional a mais de 10
-                    anos. Atuando na Austrália a 2 anos, tenho como missão
-                    trazer um pouco da cultura nipo-brasileira à Melbourne e
-                    propor uma experiência culinária de fusão entre culturas tão
-                    ricas.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quod itaque saepe officiis explicabo ad exercitationem
+                    necessitatibus quas cumque perspiciatis culpa quos
+                    consectetur laborum impedit ratione velit eum fugit alias
+                    aliquam, quam veniam. Autem, animi? Veritatis delectus ad
+                    nobis sequi quod, assumenda aut vitae non consequatur hic
+                    rerum, voluptas unde obcaecati itaque quae eum labore odit
+                    explicabo iure. Asperiores debitis voluptas explicabo, neque
+                    tenetur voluptatum modi quidem? Accusamus ratione est quasi
+                    omnis, ab ea sint voluptas ipsa praesentium animi esse
+                    possimus molestias. Magni maxime soluta autem? Quae officia
+                    id, adipisci mollitia, necessitatibus eos placeat fuga
+                    dolorum commodi sunt ea odit quam.
                   </span>
-                </h1>
-                <a
-                  className="btn btn-outline-secondary"
-                  id="some-margin"
-                  href="/contact"
-                  role="button"
-                >
-                  Entre em contato!
-                </a>
+                </h3>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     );
   }
 }
