@@ -28,11 +28,6 @@ class NavBar extends Component {
             </ul>
             <ul className="navbar-nav mr-0">
               <li className="nav-item nav-item-right">
-                <Link className="nav-link" to="/creditos">
-                  Créditos
-                </Link>
-              </li>
-              <li className="nav-item nav-item-right">
                 <Link className="nav-link" to="/contact">
                   Contato
                 </Link>

@@ -64,7 +64,7 @@ class HomePage extends Component {
                 <div className="col-3">
                   <img
                     className="face-pic"
-                    src="https://images-na.ssl-images-amazon.com/images/I/51lK5b92Q1L._SX355_.jpg"
+                    src="https://cowdy.co.nz/wp-content/uploads/face-placeholder.jpg"
                     alt=""
                   />
                 </div>
